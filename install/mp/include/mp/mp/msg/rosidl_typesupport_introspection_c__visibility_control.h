@@ -1,0 +1,1 @@
+/home/shivam/code-masala/SeDriCa-BatMobile-v2/build/mp/rosidl_typesupport_introspection_c/mp/msg/rosidl_typesupport_introspection_c__visibility_control.h

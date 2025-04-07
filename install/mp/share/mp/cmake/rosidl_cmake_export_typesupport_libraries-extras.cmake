@@ -1,0 +1,1 @@
+/home/shivam/code-masala/SeDriCa-BatMobile-v2/build/mp/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake

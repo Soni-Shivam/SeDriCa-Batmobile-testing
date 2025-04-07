@@ -1,0 +1,169 @@
+[0.193s] Invoking command in '/home/shivam/code-masala/SeDriCa-BatMobile-v2/build/mp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shivam/code-masala/SeDriCa-BatMobile-v2/install/batmobile_perception:/opt/ros/humble /usr/bin/cmake /home/shivam/code-masala/SeDriCa-BatMobile-v2/mp -DCMAKE_INSTALL_PREFIX=/home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp
+[0.204s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.289s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.294s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.312s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.314s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.317s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.324s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.331s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.352s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.353s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.427s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.459s] -- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.467s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.664s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.890s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.002s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.022s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.042s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.042s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.042s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.056s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.064s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.064s] -- Configured cppcheck include dirs: 
+[1.065s] -- Configured cppcheck exclude dirs and/or files: 
+[1.065s] -- Added test 'lint_cmake' to check CMake code style
+[1.066s] -- Added test 'uncrustify' to check C / C++ code style
+[1.066s] -- Configured uncrustify additional arguments: 
+[1.066s] -- Added test 'xmllint' to check XML markup files
+[1.069s] -- Configuring done
+[1.111s] -- Generating done
+[1.121s] -- Build files have been written to: /home/shivam/code-masala/SeDriCa-BatMobile-v2/build/mp
+[1.128s] Invoked command in '/home/shivam/code-masala/SeDriCa-BatMobile-v2/build/mp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shivam/code-masala/SeDriCa-BatMobile-v2/install/batmobile_perception:/opt/ros/humble /usr/bin/cmake /home/shivam/code-masala/SeDriCa-BatMobile-v2/mp -DCMAKE_INSTALL_PREFIX=/home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp
+[1.130s] Invoking command in '/home/shivam/code-masala/SeDriCa-BatMobile-v2/build/mp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shivam/code-masala/SeDriCa-BatMobile-v2/install/batmobile_perception:/opt/ros/humble /usr/bin/cmake --build /home/shivam/code-masala/SeDriCa-BatMobile-v2/build/mp -- -j16 -l16
+[1.166s] [35m[1mConsolidate compiler generated dependencies of target mp__rosidl_generator_c[0m
+[1.173s] [  3%] Built target mp__cpp
+[1.173s] [ 12%] Built target mp__rosidl_generator_c
+[1.178s] [ 12%] Built target ament_cmake_python_symlink_mp
+[1.185s] [35m[1mConsolidate compiler generated dependencies of target mp__rosidl_typesupport_fastrtps_cpp[0m
+[1.186s] [35m[1mConsolidate compiler generated dependencies of target mp__rosidl_typesupport_c[0m
+[1.186s] [35m[1mConsolidate compiler generated dependencies of target mp__rosidl_typesupport_introspection_c[0m
+[1.187s] [35m[1mConsolidate compiler generated dependencies of target mp__rosidl_typesupport_fastrtps_c[0m
+[1.187s] [35m[1mConsolidate compiler generated dependencies of target mp__rosidl_typesupport_cpp[0m
+[1.189s] [35m[1mConsolidate compiler generated dependencies of target mp__rosidl_typesupport_introspection_cpp[0m
+[1.204s] [ 24%] Built target mp__rosidl_typesupport_c
+[1.204s] [ 30%] Built target mp__rosidl_typesupport_introspection_c
+[1.204s] [ 39%] Built target mp__rosidl_typesupport_fastrtps_cpp
+[1.204s] [ 48%] Built target mp__rosidl_typesupport_cpp
+[1.205s] [ 57%] Built target mp__rosidl_typesupport_fastrtps_c
+[1.212s] [ 66%] Built target mp__rosidl_typesupport_introspection_cpp
+[1.217s] [35m[1mConsolidate compiler generated dependencies of target coordinates_receiver[0m
+[1.232s] [ 66%] Built target mp
+[1.234s] [ 72%] Built target coordinates_receiver
+[1.250s] [ 75%] Built target mp__py
+[1.258s] [35m[1mConsolidate compiler generated dependencies of target mp__rosidl_generator_py[0m
+[1.268s] [ 81%] Built target mp__rosidl_generator_py
+[1.276s] [35m[1mConsolidate compiler generated dependencies of target mp__rosidl_typesupport_fastrtps_c__pyext[0m
+[1.276s] [35m[1mConsolidate compiler generated dependencies of target mp__rosidl_typesupport_introspection_c__pyext[0m
+[1.276s] [35m[1mConsolidate compiler generated dependencies of target mp__rosidl_typesupport_c__pyext[0m
+[1.284s] [ 87%] Built target mp__rosidl_typesupport_introspection_c__pyext
+[1.284s] [ 93%] Built target mp__rosidl_typesupport_fastrtps_c__pyext
+[1.284s] [100%] Built target mp__rosidl_typesupport_c__pyext
+[1.360s] running egg_info
+[1.360s] writing mp.egg-info/PKG-INFO
+[1.360s] writing dependency_links to mp.egg-info/dependency_links.txt
+[1.360s] writing top-level names to mp.egg-info/top_level.txt
+[1.362s] reading manifest file 'mp.egg-info/SOURCES.txt'
+[1.362s] writing manifest file 'mp.egg-info/SOURCES.txt'
+[1.380s] [100%] Built target ament_cmake_python_build_mp_egg
+[1.389s] Invoked command in '/home/shivam/code-masala/SeDriCa-BatMobile-v2/build/mp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shivam/code-masala/SeDriCa-BatMobile-v2/install/batmobile_perception:/opt/ros/humble /usr/bin/cmake --build /home/shivam/code-masala/SeDriCa-BatMobile-v2/build/mp -- -j16 -l16
+[1.397s] Invoking command in '/home/shivam/code-masala/SeDriCa-BatMobile-v2/build/mp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shivam/code-masala/SeDriCa-BatMobile-v2/install/batmobile_perception:/opt/ros/humble /usr/bin/cmake --install /home/shivam/code-masala/SeDriCa-BatMobile-v2/build/mp
+[1.403s] -- Install configuration: ""
+[1.404s] -- Execute custom install script
+[1.404s] -- Up-to-date symlink: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/share/ament_index/resource_index/rosidl_interfaces/mp
+[1.404s] -- Up-to-date symlink: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/include/mp/mp/msg/control_instructions.h
+[1.404s] -- Up-to-date symlink: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/include/mp/mp/msg/detail/control_instructions__functions.h
+[1.404s] -- Up-to-date symlink: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/include/mp/mp/msg/detail/control_instructions__struct.h
+[1.404s] -- Up-to-date symlink: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/include/mp/mp/msg/detail/control_instructions__type_support.h
+[1.404s] -- Up-to-date symlink: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/include/mp/mp/msg/rosidl_generator_c__visibility_control.h
+[1.404s] -- Up-to-date symlink: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/share/mp/environment/library_path.sh
+[1.404s] -- Up-to-date symlink: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/share/mp/environment/library_path.dsv
+[1.404s] -- Up-to-date symlink: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/include/mp/mp/msg/detail/control_instructions__rosidl_typesupport_fastrtps_c.h
+[1.404s] -- Up-to-date symlink: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/include/mp/mp/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.405s] -- Up-to-date symlink: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/include/mp/mp/msg/control_instructions.hpp
+[1.405s] -- Up-to-date symlink: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/include/mp/mp/msg/detail/control_instructions__builder.hpp
+[1.405s] -- Up-to-date symlink: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/include/mp/mp/msg/detail/control_instructions__struct.hpp
+[1.405s] -- Up-to-date symlink: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/include/mp/mp/msg/detail/control_instructions__traits.hpp
+[1.405s] -- Up-to-date symlink: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/include/mp/mp/msg/detail/control_instructions__type_support.hpp
+[1.405s] -- Up-to-date symlink: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/include/mp/mp/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.405s] -- Up-to-date symlink: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/include/mp/mp/msg/detail/control_instructions__rosidl_typesupport_fastrtps_cpp.hpp
+[1.405s] -- Up-to-date symlink: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/include/mp/mp/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.405s] -- Up-to-date symlink: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/include/mp/mp/msg/detail/control_instructions__rosidl_typesupport_introspection_c.h
+[1.406s] -- Up-to-date symlink: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/include/mp/mp/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.406s] -- Up-to-date symlink: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/include/mp/mp/msg/detail/control_instructions__rosidl_typesupport_introspection_cpp.hpp
+[1.406s] -- Up-to-date symlink: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/share/mp/environment/pythonpath.sh
+[1.406s] -- Up-to-date symlink: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/share/mp/environment/pythonpath.dsv
+[1.406s] -- Up-to-date symlink: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/local/lib/python3.10/dist-packages/mp-0.0.0-py3.10.egg-info/PKG-INFO
+[1.406s] -- Up-to-date symlink: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/local/lib/python3.10/dist-packages/mp-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.406s] -- Up-to-date symlink: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/local/lib/python3.10/dist-packages/mp-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.406s] -- Up-to-date symlink: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/local/lib/python3.10/dist-packages/mp-0.0.0-py3.10.egg-info/top_level.txt
+[1.406s] -- Up-to-date symlink: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/local/lib/python3.10/dist-packages/mp/__init__.py
+[1.406s] -- Up-to-date symlink: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/local/lib/python3.10/dist-packages/mp/_mp_s.ep.rosidl_typesupport_c.c
+[1.406s] -- Up-to-date symlink: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/local/lib/python3.10/dist-packages/mp/_mp_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.406s] -- Up-to-date symlink: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/local/lib/python3.10/dist-packages/mp/_mp_s.ep.rosidl_typesupport_introspection_c.c
+[1.407s] -- Up-to-date symlink: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/local/lib/python3.10/dist-packages/mp/libmp__rosidl_generator_py.so
+[1.407s] -- Up-to-date symlink: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/local/lib/python3.10/dist-packages/mp/mp_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.407s] -- Up-to-date symlink: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/local/lib/python3.10/dist-packages/mp/mp_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.407s] -- Up-to-date symlink: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/local/lib/python3.10/dist-packages/mp/mp_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.407s] -- Up-to-date symlink: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/local/lib/python3.10/dist-packages/mp/msg/__init__.py
+[1.407s] -- Up-to-date symlink: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/local/lib/python3.10/dist-packages/mp/msg/_control_instructions.py
+[1.407s] -- Up-to-date symlink: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/local/lib/python3.10/dist-packages/mp/msg/_control_instructions_s.c
+[1.407s] -- Up-to-date symlink: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/local/lib/python3.10/dist-packages/mp/mp_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.407s] -- Up-to-date symlink: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/local/lib/python3.10/dist-packages/mp/mp_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.407s] -- Up-to-date symlink: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/local/lib/python3.10/dist-packages/mp/mp_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.407s] -- Up-to-date symlink: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/share/mp/msg/ControlInstructions.idl
+[1.407s] -- Up-to-date symlink: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/share/mp/msg/ControlInstructions.msg
+[1.408s] -- Up-to-date symlink: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/lib/mp/coordinates_receiver
+[1.408s] -- Up-to-date symlink: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/share/mp/msg/msg/ControlInstructions.msg
+[1.408s] -- Up-to-date symlink: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/share/ament_index/resource_index/package_run_dependencies/mp
+[1.408s] -- Up-to-date symlink: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/share/ament_index/resource_index/parent_prefix_path/mp
+[1.408s] -- Up-to-date symlink: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/share/mp/environment/ament_prefix_path.sh
+[1.408s] -- Up-to-date symlink: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/share/mp/environment/ament_prefix_path.dsv
+[1.408s] -- Up-to-date symlink: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/share/mp/environment/path.sh
+[1.408s] -- Up-to-date symlink: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/share/mp/environment/path.dsv
+[1.408s] -- Up-to-date symlink: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/share/mp/local_setup.bash
+[1.408s] -- Up-to-date symlink: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/share/mp/local_setup.sh
+[1.408s] -- Up-to-date symlink: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/share/mp/local_setup.zsh
+[1.408s] -- Up-to-date symlink: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/share/mp/local_setup.dsv
+[1.408s] -- Symlinking: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/share/mp/package.dsv
+[1.415s] -- Up-to-date symlink: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/share/ament_index/resource_index/packages/mp
+[1.415s] -- Up-to-date symlink: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/share/mp/cmake/rosidl_cmake-extras.cmake
+[1.415s] -- Up-to-date symlink: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/share/mp/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.415s] -- Up-to-date symlink: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/share/mp/cmake/ament_cmake_export_libraries-extras.cmake
+[1.416s] -- Up-to-date symlink: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/share/mp/cmake/ament_cmake_export_targets-extras.cmake
+[1.416s] -- Up-to-date symlink: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/share/mp/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.416s] -- Up-to-date symlink: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/share/mp/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.416s] -- Up-to-date symlink: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/share/mp/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.416s] -- Up-to-date symlink: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/share/mp/cmake/mpConfig.cmake
+[1.416s] -- Up-to-date symlink: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/share/mp/cmake/mpConfig-version.cmake
+[1.416s] -- Up-to-date symlink: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/share/mp/package.xml
+[1.416s] -- Up-to-date: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/lib/libmp__rosidl_generator_c.so
+[1.416s] -- Up-to-date: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/lib/libmp__rosidl_typesupport_fastrtps_c.so
+[1.416s] -- Up-to-date: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/lib/libmp__rosidl_typesupport_fastrtps_cpp.so
+[1.416s] -- Up-to-date: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/lib/libmp__rosidl_typesupport_introspection_c.so
+[1.417s] -- Up-to-date: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/lib/libmp__rosidl_typesupport_c.so
+[1.417s] -- Up-to-date: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/lib/libmp__rosidl_typesupport_introspection_cpp.so
+[1.417s] -- Up-to-date: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/lib/libmp__rosidl_typesupport_cpp.so
+[1.441s] Listing '/home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/local/lib/python3.10/dist-packages/mp'...
+[1.441s] Compiling '/home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/local/lib/python3.10/dist-packages/mp/__init__.py'...
+[1.441s] Listing '/home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/local/lib/python3.10/dist-packages/mp/msg'...
+[1.444s] -- Up-to-date: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/lib/libmp__rosidl_generator_py.so
+[1.444s] -- Up-to-date: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/share/mp/cmake/export_mp__rosidl_generator_cExport.cmake
+[1.444s] -- Up-to-date: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/share/mp/cmake/export_mp__rosidl_generator_cExport-noconfig.cmake
+[1.445s] -- Up-to-date: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/share/mp/cmake/export_mp__rosidl_typesupport_fastrtps_cExport.cmake
+[1.445s] -- Up-to-date: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/share/mp/cmake/export_mp__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.445s] -- Up-to-date: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/share/mp/cmake/export_mp__rosidl_generator_cppExport.cmake
+[1.445s] -- Up-to-date: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/share/mp/cmake/export_mp__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.445s] -- Up-to-date: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/share/mp/cmake/export_mp__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.445s] -- Up-to-date: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/share/mp/cmake/mp__rosidl_typesupport_introspection_cExport.cmake
+[1.445s] -- Up-to-date: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/share/mp/cmake/mp__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.445s] -- Up-to-date: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/share/mp/cmake/mp__rosidl_typesupport_cExport.cmake
+[1.445s] -- Up-to-date: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/share/mp/cmake/mp__rosidl_typesupport_cExport-noconfig.cmake
+[1.445s] -- Up-to-date: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/share/mp/cmake/mp__rosidl_typesupport_introspection_cppExport.cmake
+[1.445s] -- Up-to-date: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/share/mp/cmake/mp__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.445s] -- Up-to-date: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/share/mp/cmake/mp__rosidl_typesupport_cppExport.cmake
+[1.445s] -- Up-to-date: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/share/mp/cmake/mp__rosidl_typesupport_cppExport-noconfig.cmake
+[1.445s] -- Up-to-date: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/share/mp/cmake/export_mp__rosidl_generator_pyExport.cmake
+[1.445s] -- Up-to-date: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/share/mp/cmake/export_mp__rosidl_generator_pyExport-noconfig.cmake
+[1.447s] Invoked command in '/home/shivam/code-masala/SeDriCa-BatMobile-v2/build/mp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shivam/code-masala/SeDriCa-BatMobile-v2/install/batmobile_perception:/opt/ros/humble /usr/bin/cmake --install /home/shivam/code-masala/SeDriCa-BatMobile-v2/build/mp

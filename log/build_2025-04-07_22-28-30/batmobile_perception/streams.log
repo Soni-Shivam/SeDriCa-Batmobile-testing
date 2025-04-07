@@ -1,0 +1,26 @@
+[0.439s] Invoking command in '/home/shivam/code-masala/SeDriCa-BatMobile-v2/build/batmobile_perception': PYTHONPATH=/home/shivam/code-masala/SeDriCa-BatMobile-v2/build/batmobile_perception/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shivam/code-masala/SeDriCa-BatMobile-v2/install/batmobile_perception/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/shivam/code-masala/SeDriCa-BatMobile-v2/build/batmobile_perception/build --no-deps symlink_data
+[0.596s] running develop
+[0.684s] running egg_info
+[0.685s] creating batmobile_perception.egg-info
+[0.685s] writing batmobile_perception.egg-info/PKG-INFO
+[0.685s] writing dependency_links to batmobile_perception.egg-info/dependency_links.txt
+[0.685s] writing entry points to batmobile_perception.egg-info/entry_points.txt
+[0.685s] writing requirements to batmobile_perception.egg-info/requires.txt
+[0.685s] writing top-level names to batmobile_perception.egg-info/top_level.txt
+[0.685s] writing manifest file 'batmobile_perception.egg-info/SOURCES.txt'
+[0.686s] reading manifest file 'batmobile_perception.egg-info/SOURCES.txt'
+[0.686s] writing manifest file 'batmobile_perception.egg-info/SOURCES.txt'
+[0.687s] running build_ext
+[0.687s] Creating /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/batmobile_perception/lib/python3.10/site-packages/batmobile-perception.egg-link (link to .)
+[0.688s] Installing locate_func script to /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/batmobile_perception/lib/batmobile_perception
+[0.688s] Installing publisher script to /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/batmobile_perception/lib/batmobile_perception
+[0.688s] Installing subscriber script to /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/batmobile_perception/lib/batmobile_perception
+[0.688s] 
+[0.688s] Installed /home/shivam/code-masala/SeDriCa-BatMobile-v2/build/batmobile_perception
+[0.688s] running symlink_data
+[0.688s] creating /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/batmobile_perception/share/ament_index
+[0.688s] creating /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/batmobile_perception/share/ament_index/resource_index
+[0.688s] creating /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/batmobile_perception/share/ament_index/resource_index/packages
+[0.688s] symbolically linking /home/shivam/code-masala/SeDriCa-BatMobile-v2/build/batmobile_perception/resource/batmobile_perception -> /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/batmobile_perception/share/ament_index/resource_index/packages
+[0.688s] symbolically linking /home/shivam/code-masala/SeDriCa-BatMobile-v2/build/batmobile_perception/package.xml -> /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/batmobile_perception/share/batmobile_perception
+[0.706s] Invoked command in '/home/shivam/code-masala/SeDriCa-BatMobile-v2/build/batmobile_perception' returned '0': PYTHONPATH=/home/shivam/code-masala/SeDriCa-BatMobile-v2/build/batmobile_perception/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shivam/code-masala/SeDriCa-BatMobile-v2/install/batmobile_perception/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/shivam/code-masala/SeDriCa-BatMobile-v2/build/batmobile_perception/build --no-deps symlink_data

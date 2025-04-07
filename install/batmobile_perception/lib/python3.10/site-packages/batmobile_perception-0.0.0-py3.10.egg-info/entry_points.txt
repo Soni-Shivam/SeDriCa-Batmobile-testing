@@ -1,0 +1,5 @@
+[console_scripts]
+locate_func = batmobile_perception.locate_func:main
+publisher = batmobile_perception.publisher_node:main
+subscriber = batmobile_perception.reciever_node:main
+

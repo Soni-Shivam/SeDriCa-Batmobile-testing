@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-1af43576eb9fb55e930b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "mp__py",
+					"jsonFile" : "directory-mp__py-2ee35f2fedb908329e91.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/shivam/code-masala/SeDriCa-BatMobile-v2/build/mp/mp__py",
+					"targetIndexes" : 
+					[
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "mp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_mp_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_mp_egg-56a7ec19a54866362960.json",
+					"name" : "ament_cmake_python_build_mp_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_mp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_mp-fbdcdb2fcf45575cd44d.json",
+					"name" : "ament_cmake_python_symlink_mp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "coordinates_receiver::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-coordinates_receiver-ee785d93b76119e66b16.json",
+					"name" : "coordinates_receiver",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mp-775d74cef2a5818642e3.json",
+					"name" : "mp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mp__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mp__cpp-578d37c1eb5860253bde.json",
+					"name" : "mp__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "mp__py::@0e90892c2be9edef3ac2",
+					"jsonFile" : "target-mp__py-57876fee0351723dcd74.json",
+					"name" : "mp__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mp__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mp__rosidl_generator_c-0385fd1fd0d98cdab7f8.json",
+					"name" : "mp__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mp__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mp__rosidl_generator_py-7b7171936a430e25a5c1.json",
+					"name" : "mp__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mp__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mp__rosidl_typesupport_c-ce49c74c673c97fd05ec.json",
+					"name" : "mp__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mp__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mp__rosidl_typesupport_c__pyext-b9d2a8d73fc12f856dc1.json",
+					"name" : "mp__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mp__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mp__rosidl_typesupport_cpp-470a037a9785035ad46f.json",
+					"name" : "mp__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mp__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mp__rosidl_typesupport_fastrtps_c-7a40d1faeafffb2cc264.json",
+					"name" : "mp__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mp__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mp__rosidl_typesupport_fastrtps_c__pyext-741c329af4c13fd6f227.json",
+					"name" : "mp__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mp__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mp__rosidl_typesupport_fastrtps_cpp-046ac705f438e9a7d33c.json",
+					"name" : "mp__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mp__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mp__rosidl_typesupport_introspection_c-8597195745151e1519ce.json",
+					"name" : "mp__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mp__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mp__rosidl_typesupport_introspection_c__pyext-64af4d689c122c54b893.json",
+					"name" : "mp__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mp__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mp__rosidl_typesupport_introspection_cpp-0c81cc7ae6be37318e0a.json",
+					"name" : "mp__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mp_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mp_uninstall-d51186a3e8eecc267dbc.json",
+					"name" : "mp_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-13612e150e6efdc3441e.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/shivam/code-masala/SeDriCa-BatMobile-v2/build/mp",
+		"source" : "/home/shivam/code-masala/SeDriCa-BatMobile-v2/mp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

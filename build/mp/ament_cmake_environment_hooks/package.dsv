@@ -1,0 +1,4 @@
+source;share/mp/local_setup.bash
+source;share/mp/local_setup.dsv
+source;share/mp/local_setup.sh
+source;share/mp/local_setup.zsh

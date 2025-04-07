@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from mp/msg/ControlInstructions.msg
+// generated code does not contain a copyright notice
+
+
+module mp {
+  module msg {
+    struct ControlInstructions {
+      float linear_speed;
+
+      float angular_speed;
+
+      @verbatim (language="comment", text=
+        "To shoot yes or no")
+      boolean shoot_cannon;
+
+      @verbatim (language="comment", text=
+        "Angle of the cannon in radians")
+      float cannon_angle;
+    };
+  };
+};

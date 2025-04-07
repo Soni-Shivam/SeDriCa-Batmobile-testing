@@ -1,0 +1,348 @@
+[0.000000] (-) TimerEvent: {}
+[0.000161] (batmobile_perception) JobQueued: {'identifier': 'batmobile_perception', 'dependencies': OrderedDict()}
+[0.000202] (mp) JobQueued: {'identifier': 'mp', 'dependencies': OrderedDict()}
+[0.000225] (batmobile_perception) JobStarted: {'identifier': 'batmobile_perception'}
+[0.005470] (mp) JobStarted: {'identifier': 'mp'}
+[0.099428] (-) TimerEvent: {}
+[0.189527] (mp) JobProgress: {'identifier': 'mp', 'progress': 'cmake'}
+[0.190016] (mp) Command: {'cmd': ['/usr/bin/cmake', '/home/shivam/code-masala/SeDriCa-BatMobile-v2/mp', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp'], 'cwd': '/home/shivam/code-masala/SeDriCa-BatMobile-v2/build/mp', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'shivam'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/shivam'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.99.0'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1739'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1978'), ('BUNDLED_DEBUGPY_PATH', '/home/shivam/.vscode/extensions/ms-python.debugpy-2025.6.0-linux-x64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4782'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'shivam'), ('JOURNAL_STREAM', '8:18382'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'shivam'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/shivam/bin:/home/shivam/.local/bin:/home/shivam/bin:/opt/ros/humble/bin:/home/shivam/bin:/home/shivam/.local/bin:/home/shivam/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/shivam/.vscode/extensions/ms-python.debugpy-2025.6.0-linux-x64/bundled/scripts/noConfigScripts:/home/shivam/.config/Code/User/globalStorage/github.copilot-chat/debugCommand'), ('SESSION_MANAGER', 'local/PLUTO:@/tmp/.ICE-unix/1950,unix/PLUTO:/tmp/.ICE-unix/1950'), ('INVOCATION_ID', 'cd54faf41b7840889422088c271ce63e'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/shivam/.vscode/extensions/ms-python.debugpy-2025.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-2791fa638c8c2f38.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-02f05a28dc.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/shivam/code-masala/SeDriCa-BatMobile-v2/build/mp'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/home/shivam/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.199577] (-) TimerEvent: {}
+[0.233920] (mp) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.272273] (mp) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.277335] (mp) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.299692] (-) TimerEvent: {}
+[0.333799] (mp) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.338736] (mp) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.338843] (mp) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.339243] (mp) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.341254] (mp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.399781] (-) TimerEvent: {}
+[0.402493] (mp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.408799] (mp) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.408987] (mp) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.409538] (mp) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.411007] (mp) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.438724] (batmobile_perception) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/shivam/code-masala/SeDriCa-BatMobile-v2/build/batmobile_perception/build', '--no-deps', 'symlink_data'], 'cwd': '/home/shivam/code-masala/SeDriCa-BatMobile-v2/build/batmobile_perception', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'shivam', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/shivam', 'CHROME_DESKTOP': 'code.desktop', 'TERM_PROGRAM_VERSION': '1.99.0', 'DESKTOP_SESSION': 'ubuntu-xorg', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '1739', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '1978', 'BUNDLED_DEBUGPY_PATH': '/home/shivam/.vscode/extensions/ms-python.debugpy-2025.6.0-linux-x64/bundled/libs/debugpy', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4782', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'shivam', 'JOURNAL_STREAM': '8:18382', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'shivam', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/home/shivam/bin:/home/shivam/.local/bin:/home/shivam/bin:/opt/ros/humble/bin:/home/shivam/bin:/home/shivam/.local/bin:/home/shivam/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/shivam/.vscode/extensions/ms-python.debugpy-2025.6.0-linux-x64/bundled/scripts/noConfigScripts:/home/shivam/.config/Code/User/globalStorage/github.copilot-chat/debugCommand', 'SESSION_MANAGER': 'local/PLUTO:@/tmp/.ICE-unix/1950,unix/PLUTO:/tmp/.ICE-unix/1950', 'INVOCATION_ID': 'cd54faf41b7840889422088c271ce63e', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/shivam/.vscode/extensions/ms-python.debugpy-2025.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-2791fa638c8c2f38.txt', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-02f05a28dc.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/shivam/code-masala/SeDriCa-BatMobile-v2/build/batmobile_perception', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/home/shivam/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/shivam/code-masala/SeDriCa-BatMobile-v2/build/batmobile_perception/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shivam/code-masala/SeDriCa-BatMobile-v2/install/batmobile_perception/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[0.499950] (-) TimerEvent: {}
+[0.526823] (mp) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.568858] (mp) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.589404] (mp) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.596508] (batmobile_perception) StdoutLine: {'line': b'running develop\n'}
+[0.600008] (-) TimerEvent: {}
+[0.624418] (mp) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.627586] (mp) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.633512] (mp) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.642332] (mp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.654033] (mp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.684391] (batmobile_perception) StdoutLine: {'line': b'running egg_info\n'}
+[0.684641] (batmobile_perception) StdoutLine: {'line': b'creating batmobile_perception.egg-info\n'}
+[0.684837] (batmobile_perception) StdoutLine: {'line': b'writing batmobile_perception.egg-info/PKG-INFO\n'}
+[0.684913] (batmobile_perception) StdoutLine: {'line': b'writing dependency_links to batmobile_perception.egg-info/dependency_links.txt\n'}
+[0.685015] (batmobile_perception) StdoutLine: {'line': b'writing entry points to batmobile_perception.egg-info/entry_points.txt\n'}
+[0.685080] (batmobile_perception) StdoutLine: {'line': b'writing requirements to batmobile_perception.egg-info/requires.txt\n'}
+[0.685141] (batmobile_perception) StdoutLine: {'line': b'writing top-level names to batmobile_perception.egg-info/top_level.txt\n'}
+[0.685203] (batmobile_perception) StdoutLine: {'line': b"writing manifest file 'batmobile_perception.egg-info/SOURCES.txt'\n"}
+[0.685443] (mp) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.685886] (batmobile_perception) StdoutLine: {'line': b"reading manifest file 'batmobile_perception.egg-info/SOURCES.txt'\n"}
+[0.686321] (batmobile_perception) StdoutLine: {'line': b"writing manifest file 'batmobile_perception.egg-info/SOURCES.txt'\n"}
+[0.687124] (batmobile_perception) StdoutLine: {'line': b'running build_ext\n'}
+[0.687322] (batmobile_perception) StdoutLine: {'line': b'Creating /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/batmobile_perception/lib/python3.10/site-packages/batmobile-perception.egg-link (link to .)\n'}
+[0.687503] (mp) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.687757] (batmobile_perception) StdoutLine: {'line': b'Installing locate_func script to /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/batmobile_perception/lib/batmobile_perception\n'}
+[0.687872] (batmobile_perception) StdoutLine: {'line': b'Installing publisher script to /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/batmobile_perception/lib/batmobile_perception\n'}
+[0.687949] (batmobile_perception) StdoutLine: {'line': b'Installing subscriber script to /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/batmobile_perception/lib/batmobile_perception\n'}
+[0.688061] (batmobile_perception) StdoutLine: {'line': b'\n'}
+[0.688125] (batmobile_perception) StdoutLine: {'line': b'Installed /home/shivam/code-masala/SeDriCa-BatMobile-v2/build/batmobile_perception\n'}
+[0.688189] (batmobile_perception) StdoutLine: {'line': b'running symlink_data\n'}
+[0.688249] (batmobile_perception) StdoutLine: {'line': b'creating /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/batmobile_perception/share/ament_index\n'}
+[0.688309] (batmobile_perception) StdoutLine: {'line': b'creating /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/batmobile_perception/share/ament_index/resource_index\n'}
+[0.688370] (batmobile_perception) StdoutLine: {'line': b'creating /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/batmobile_perception/share/ament_index/resource_index/packages\n'}
+[0.688438] (batmobile_perception) StdoutLine: {'line': b'symbolically linking /home/shivam/code-masala/SeDriCa-BatMobile-v2/build/batmobile_perception/resource/batmobile_perception -> /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/batmobile_perception/share/ament_index/resource_index/packages\n'}
+[0.688501] (batmobile_perception) StdoutLine: {'line': b'symbolically linking /home/shivam/code-masala/SeDriCa-BatMobile-v2/build/batmobile_perception/package.xml -> /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/batmobile_perception/share/batmobile_perception\n'}
+[0.700119] (-) TimerEvent: {}
+[0.706506] (batmobile_perception) CommandEnded: {'returncode': 0}
+[0.713441] (batmobile_perception) JobEnded: {'identifier': 'batmobile_perception', 'rc': 0}
+[0.756570] (mp) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.779830] (mp) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.800260] (-) TimerEvent: {}
+[0.811814] (mp) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.816879] (mp) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.878430] (mp) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.878829] (mp) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.900375] (-) TimerEvent: {}
+[0.946353] (mp) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.947192] (mp) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.981355] (mp) StdoutLine: {'line': b'-- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.989829] (mp) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.000520] (-) TimerEvent: {}
+[1.100779] (-) TimerEvent: {}
+[1.182527] (mp) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.200893] (-) TimerEvent: {}
+[1.301189] (-) TimerEvent: {}
+[1.401452] (-) TimerEvent: {}
+[1.403770] (mp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.496582] (mp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.501609] (-) TimerEvent: {}
+[1.513283] (mp) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[1.514297] (mp) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.533300] (mp) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[1.533439] (mp) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.533479] (mp) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.533508] (mp) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.548420] (mp) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.575260] (mp) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.591856] (mp) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.592181] (mp) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.592255] (mp) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.592832] (mp) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.593455] (mp) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.593528] (mp) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.593771] (mp) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.595832] (mp) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.601755] (-) TimerEvent: {}
+[1.614082] (mp) StdoutLine: {'line': b'-- Generating done\n'}
+[1.620963] (mp) StdoutLine: {'line': b'-- Build files have been written to: /home/shivam/code-masala/SeDriCa-BatMobile-v2/build/mp\n'}
+[1.629869] (mp) CommandEnded: {'returncode': 0}
+[1.631450] (mp) JobProgress: {'identifier': 'mp', 'progress': 'build'}
+[1.631576] (mp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/shivam/code-masala/SeDriCa-BatMobile-v2/build/mp', '--', '-j16', '-l16'], 'cwd': '/home/shivam/code-masala/SeDriCa-BatMobile-v2/build/mp', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'shivam'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/shivam'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.99.0'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1739'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1978'), ('BUNDLED_DEBUGPY_PATH', '/home/shivam/.vscode/extensions/ms-python.debugpy-2025.6.0-linux-x64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4782'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'shivam'), ('JOURNAL_STREAM', '8:18382'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'shivam'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/shivam/bin:/home/shivam/.local/bin:/home/shivam/bin:/opt/ros/humble/bin:/home/shivam/bin:/home/shivam/.local/bin:/home/shivam/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/shivam/.vscode/extensions/ms-python.debugpy-2025.6.0-linux-x64/bundled/scripts/noConfigScripts:/home/shivam/.config/Code/User/globalStorage/github.copilot-chat/debugCommand'), ('SESSION_MANAGER', 'local/PLUTO:@/tmp/.ICE-unix/1950,unix/PLUTO:/tmp/.ICE-unix/1950'), ('INVOCATION_ID', 'cd54faf41b7840889422088c271ce63e'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/shivam/.vscode/extensions/ms-python.debugpy-2025.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-2791fa638c8c2f38.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-02f05a28dc.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/shivam/code-masala/SeDriCa-BatMobile-v2/build/mp'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/home/shivam/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.663268] (mp) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.671979] (mp) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.677042] (mp) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_symlink_mp\n'}
+[1.701849] (-) TimerEvent: {}
+[1.802080] (-) TimerEvent: {}
+[1.821663] (mp) StdoutLine: {'line': b'running egg_info\n'}
+[1.822079] (mp) StdoutLine: {'line': b'creating mp.egg-info\n'}
+[1.822208] (mp) StdoutLine: {'line': b'writing mp.egg-info/PKG-INFO\n'}
+[1.822342] (mp) StdoutLine: {'line': b'writing dependency_links to mp.egg-info/dependency_links.txt\n'}
+[1.822423] (mp) StdoutLine: {'line': b'writing top-level names to mp.egg-info/top_level.txt\n'}
+[1.822530] (mp) StdoutLine: {'line': b"writing manifest file 'mp.egg-info/SOURCES.txt'\n"}
+[1.823854] (mp) StdoutLine: {'line': b"reading manifest file 'mp.egg-info/SOURCES.txt'\n"}
+[1.824155] (mp) StdoutLine: {'line': b"writing manifest file 'mp.egg-info/SOURCES.txt'\n"}
+[1.837880] (mp) StdoutLine: {'line': b'[  6%] Built target mp__cpp\n'}
+[1.839913] (mp) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/mp__rosidl_generator_c.dir/rosidl_generator_c/mp/msg/detail/control_instructions__functions.c.o\x1b[0m\n'}
+[1.845059] (mp) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.845266] (mp) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.845338] (mp) StdoutLine: {'line': b'[ 15%] Built target ament_cmake_python_build_mp_egg\n'}
+[1.845854] (mp) StdoutLine: {'line': b'[ 18%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.878612] (mp) StdoutLine: {'line': b'[ 21%] \x1b[32m\x1b[1mLinking C shared library libmp__rosidl_generator_c.so\x1b[0m\n'}
+[1.902176] (-) TimerEvent: {}
+[1.906558] (mp) StdoutLine: {'line': b'[ 21%] Built target mp__rosidl_generator_c\n'}
+[1.913705] (mp) StdoutLine: {'line': b'[ 24%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.915300] (mp) StdoutLine: {'line': b'[ 30%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.915390] (mp) StdoutLine: {'line': b'[ 30%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[1.998297] (mp) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/mp__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mp/msg/control_instructions__type_support.cpp.o\x1b[0m\n'}
+[2.002253] (-) TimerEvent: {}
+[2.007258] (mp) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/mp__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mp/msg/detail/dds_fastrtps/control_instructions__type_support.cpp.o\x1b[0m\n'}
+[2.008337] (mp) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/mp__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mp/msg/detail/control_instructions__type_support.cpp.o\x1b[0m\n'}
+[2.064743] (mp) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/mp__rosidl_typesupport_c.dir/rosidl_typesupport_c/mp/msg/control_instructions__type_support.cpp.o\x1b[0m\n'}
+[2.078193] (mp) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding C object CMakeFiles/mp__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mp/msg/detail/control_instructions__type_support.c.o\x1b[0m\n'}
+[2.081397] (mp) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/mp__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mp/msg/detail/control_instructions__type_support_c.cpp.o\x1b[0m\n'}
+[2.086610] (mp) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libmp__rosidl_typesupport_c.so\x1b[0m\n'}
+[2.101132] (mp) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking C shared library libmp__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[2.102363] (-) TimerEvent: {}
+[2.122140] (mp) StdoutLine: {'line': b'[ 54%] Built target mp__rosidl_typesupport_c\n'}
+[2.126738] (mp) StdoutLine: {'line': b'[ 54%] Built target mp__rosidl_typesupport_introspection_c\n'}
+[2.179427] (mp) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX shared library libmp__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[2.202497] (-) TimerEvent: {}
+[2.212417] (mp) StdoutLine: {'line': b'[ 57%] Built target mp__rosidl_typesupport_cpp\n'}
+[2.229700] (mp) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/coordinates_receiver.dir/src/coordinatesreceiver.cpp.o\x1b[0m\n'}
+[2.250659] (mp) StdoutLine: {'line': b'[ 63%] \x1b[32m\x1b[1mLinking CXX shared library libmp__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[2.253627] (mp) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library libmp__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[2.278967] (mp) StdoutLine: {'line': b'[ 66%] Built target mp__rosidl_typesupport_introspection_cpp\n'}
+[2.282918] (mp) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library libmp__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[2.302605] (-) TimerEvent: {}
+[2.305281] (mp) StdoutLine: {'line': b'[ 69%] Built target mp__rosidl_typesupport_fastrtps_cpp\n'}
+[2.338807] (mp) StdoutLine: {'line': b'[ 69%] Built target mp__rosidl_typesupport_fastrtps_c\n'}
+[2.353184] (mp) StdoutLine: {'line': b'[ 69%] Built target mp\n'}
+[2.367789] (mp) StdoutLine: {'line': b'[ 72%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[2.402765] (-) TimerEvent: {}
+[2.503124] (-) TimerEvent: {}
+[2.571255] (mp) StdoutLine: {'line': b'[ 72%] Built target mp__py\n'}
+[2.587420] (mp) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding C object CMakeFiles/mp__rosidl_generator_py.dir/rosidl_generator_py/mp/msg/_control_instructions_s.c.o\x1b[0m\n'}
+[2.603223] (-) TimerEvent: {}
+[2.666809] (mp) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/mp/libmp__rosidl_generator_py.so\x1b[0m\n'}
+[2.699988] (mp) StdoutLine: {'line': b'[ 78%] Built target mp__rosidl_generator_py\n'}
+[2.703349] (-) TimerEvent: {}
+[2.713616] (mp) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/mp__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/mp/_mp_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[2.713810] (mp) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/mp__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/mp/_mp_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[2.716509] (mp) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/mp__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/mp/_mp_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[2.770189] (mp) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/mp/mp_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.771592] (mp) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/mp/mp_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.773214] (mp) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/mp/mp_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.793108] (mp) StdoutLine: {'line': b'[ 96%] Built target mp__rosidl_typesupport_fastrtps_c__pyext\n'}
+[2.797335] (mp) StdoutLine: {'line': b'[ 96%] Built target mp__rosidl_typesupport_c__pyext\n'}
+[2.799068] (mp) StdoutLine: {'line': b'[ 96%] Built target mp__rosidl_typesupport_introspection_c__pyext\n'}
+[2.803467] (-) TimerEvent: {}
+[2.903810] (-) TimerEvent: {}
+[3.004138] (-) TimerEvent: {}
+[3.104454] (-) TimerEvent: {}
+[3.204807] (-) TimerEvent: {}
+[3.305170] (-) TimerEvent: {}
+[3.405598] (-) TimerEvent: {}
+[3.505846] (-) TimerEvent: {}
+[3.606193] (-) TimerEvent: {}
+[3.706538] (-) TimerEvent: {}
+[3.806900] (-) TimerEvent: {}
+[3.907260] (-) TimerEvent: {}
+[4.007606] (-) TimerEvent: {}
+[4.107972] (-) TimerEvent: {}
+[4.208308] (-) TimerEvent: {}
+[4.308569] (-) TimerEvent: {}
+[4.408898] (-) TimerEvent: {}
+[4.509176] (-) TimerEvent: {}
+[4.609513] (-) TimerEvent: {}
+[4.709806] (-) TimerEvent: {}
+[4.810224] (-) TimerEvent: {}
+[4.910489] (-) TimerEvent: {}
+[5.010801] (-) TimerEvent: {}
+[5.111004] (-) TimerEvent: {}
+[5.211247] (-) TimerEvent: {}
+[5.311583] (-) TimerEvent: {}
+[5.411917] (-) TimerEvent: {}
+[5.512302] (-) TimerEvent: {}
+[5.612545] (-) TimerEvent: {}
+[5.712812] (-) TimerEvent: {}
+[5.813073] (-) TimerEvent: {}
+[5.913294] (-) TimerEvent: {}
+[6.013546] (-) TimerEvent: {}
+[6.113856] (-) TimerEvent: {}
+[6.214113] (-) TimerEvent: {}
+[6.314427] (-) TimerEvent: {}
+[6.414775] (-) TimerEvent: {}
+[6.515021] (-) TimerEvent: {}
+[6.615324] (-) TimerEvent: {}
+[6.715630] (-) TimerEvent: {}
+[6.815860] (-) TimerEvent: {}
+[6.916178] (-) TimerEvent: {}
+[7.016496] (-) TimerEvent: {}
+[7.116828] (-) TimerEvent: {}
+[7.217084] (-) TimerEvent: {}
+[7.317311] (-) TimerEvent: {}
+[7.417625] (-) TimerEvent: {}
+[7.517875] (-) TimerEvent: {}
+[7.618114] (-) TimerEvent: {}
+[7.718368] (-) TimerEvent: {}
+[7.818685] (-) TimerEvent: {}
+[7.880662] (mp) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable coordinates_receiver\x1b[0m\n'}
+[7.918858] (-) TimerEvent: {}
+[8.019215] (-) TimerEvent: {}
+[8.119457] (-) TimerEvent: {}
+[8.168594] (mp) StdoutLine: {'line': b'[100%] Built target coordinates_receiver\n'}
+[8.178340] (mp) CommandEnded: {'returncode': 0}
+[8.178805] (mp) JobProgress: {'identifier': 'mp', 'progress': 'install'}
+[8.186893] (mp) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/shivam/code-masala/SeDriCa-BatMobile-v2/build/mp'], 'cwd': '/home/shivam/code-masala/SeDriCa-BatMobile-v2/build/mp', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'shivam'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/shivam'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.99.0'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1739'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1978'), ('BUNDLED_DEBUGPY_PATH', '/home/shivam/.vscode/extensions/ms-python.debugpy-2025.6.0-linux-x64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4782'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'shivam'), ('JOURNAL_STREAM', '8:18382'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'shivam'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/shivam/bin:/home/shivam/.local/bin:/home/shivam/bin:/opt/ros/humble/bin:/home/shivam/bin:/home/shivam/.local/bin:/home/shivam/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/shivam/.vscode/extensions/ms-python.debugpy-2025.6.0-linux-x64/bundled/scripts/noConfigScripts:/home/shivam/.config/Code/User/globalStorage/github.copilot-chat/debugCommand'), ('SESSION_MANAGER', 'local/PLUTO:@/tmp/.ICE-unix/1950,unix/PLUTO:/tmp/.ICE-unix/1950'), ('INVOCATION_ID', 'cd54faf41b7840889422088c271ce63e'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/shivam/.vscode/extensions/ms-python.debugpy-2025.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-2791fa638c8c2f38.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-02f05a28dc.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/shivam/code-masala/SeDriCa-BatMobile-v2/build/mp'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/home/shivam/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[8.193768] (mp) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.194272] (mp) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[8.194522] (mp) StdoutLine: {'line': b'-- Symlinking: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/share/ament_index/resource_index/rosidl_interfaces/mp\n'}
+[8.202437] (mp) StdoutLine: {'line': b'-- Symlinking: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/include/mp/mp/msg/control_instructions.h\n'}
+[8.209645] (mp) StdoutLine: {'line': b'-- Symlinking: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/include/mp/mp/msg/detail/control_instructions__functions.h\n'}
+[8.215215] (mp) StdoutLine: {'line': b'-- Symlinking: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/include/mp/mp/msg/detail/control_instructions__struct.h\n'}
+[8.219609] (-) TimerEvent: {}
+[8.220622] (mp) StdoutLine: {'line': b'-- Symlinking: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/include/mp/mp/msg/detail/control_instructions__type_support.h\n'}
+[8.225626] (mp) StdoutLine: {'line': b'-- Symlinking: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/include/mp/mp/msg/rosidl_generator_c__visibility_control.h\n'}
+[8.231649] (mp) StdoutLine: {'line': b'-- Symlinking: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/share/mp/environment/library_path.sh\n'}
+[8.237333] (mp) StdoutLine: {'line': b'-- Symlinking: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/share/mp/environment/library_path.dsv\n'}
+[8.245113] (mp) StdoutLine: {'line': b'-- Symlinking: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/include/mp/mp/msg/detail/control_instructions__rosidl_typesupport_fastrtps_c.h\n'}
+[8.252553] (mp) StdoutLine: {'line': b'-- Symlinking: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/include/mp/mp/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[8.258490] (mp) StdoutLine: {'line': b'-- Symlinking: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/include/mp/mp/msg/control_instructions.hpp\n'}
+[8.264134] (mp) StdoutLine: {'line': b'-- Symlinking: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/include/mp/mp/msg/detail/control_instructions__builder.hpp\n'}
+[8.270996] (mp) StdoutLine: {'line': b'-- Symlinking: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/include/mp/mp/msg/detail/control_instructions__struct.hpp\n'}
+[8.278672] (mp) StdoutLine: {'line': b'-- Symlinking: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/include/mp/mp/msg/detail/control_instructions__traits.hpp\n'}
+[8.285413] (mp) StdoutLine: {'line': b'-- Symlinking: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/include/mp/mp/msg/detail/control_instructions__type_support.hpp\n'}
+[8.292669] (mp) StdoutLine: {'line': b'-- Symlinking: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/include/mp/mp/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[8.300210] (mp) StdoutLine: {'line': b'-- Symlinking: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/include/mp/mp/msg/detail/control_instructions__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.307092] (mp) StdoutLine: {'line': b'-- Symlinking: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/include/mp/mp/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[8.314651] (mp) StdoutLine: {'line': b'-- Symlinking: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/include/mp/mp/msg/detail/control_instructions__rosidl_typesupport_introspection_c.h\n'}
+[8.319769] (-) TimerEvent: {}
+[8.321762] (mp) StdoutLine: {'line': b'-- Symlinking: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/include/mp/mp/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[8.328139] (mp) StdoutLine: {'line': b'-- Symlinking: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/include/mp/mp/msg/detail/control_instructions__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.336540] (mp) StdoutLine: {'line': b'-- Symlinking: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/share/mp/environment/pythonpath.sh\n'}
+[8.343530] (mp) StdoutLine: {'line': b'-- Symlinking: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/share/mp/environment/pythonpath.dsv\n'}
+[8.350972] (mp) StdoutLine: {'line': b'-- Symlinking: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/local/lib/python3.10/dist-packages/mp-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[8.358362] (mp) StdoutLine: {'line': b'-- Symlinking: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/local/lib/python3.10/dist-packages/mp-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[8.365333] (mp) StdoutLine: {'line': b'-- Symlinking: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/local/lib/python3.10/dist-packages/mp-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[8.372125] (mp) StdoutLine: {'line': b'-- Symlinking: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/local/lib/python3.10/dist-packages/mp-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[8.379428] (mp) StdoutLine: {'line': b'-- Symlinking: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/local/lib/python3.10/dist-packages/mp/__init__.py\n'}
+[8.386641] (mp) StdoutLine: {'line': b'-- Symlinking: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/local/lib/python3.10/dist-packages/mp/_mp_s.ep.rosidl_typesupport_c.c\n'}
+[8.393175] (mp) StdoutLine: {'line': b'-- Symlinking: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/local/lib/python3.10/dist-packages/mp/_mp_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[8.400128] (mp) StdoutLine: {'line': b'-- Symlinking: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/local/lib/python3.10/dist-packages/mp/_mp_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[8.407077] (mp) StdoutLine: {'line': b'-- Symlinking: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/local/lib/python3.10/dist-packages/mp/libmp__rosidl_generator_py.so\n'}
+[8.413756] (mp) StdoutLine: {'line': b'-- Symlinking: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/local/lib/python3.10/dist-packages/mp/mp_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.419960] (-) TimerEvent: {}
+[8.420796] (mp) StdoutLine: {'line': b'-- Symlinking: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/local/lib/python3.10/dist-packages/mp/mp_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.428612] (mp) StdoutLine: {'line': b'-- Symlinking: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/local/lib/python3.10/dist-packages/mp/mp_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.435404] (mp) StdoutLine: {'line': b'-- Symlinking: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/local/lib/python3.10/dist-packages/mp/msg/__init__.py\n'}
+[8.443135] (mp) StdoutLine: {'line': b'-- Symlinking: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/local/lib/python3.10/dist-packages/mp/msg/_control_instructions.py\n'}
+[8.450129] (mp) StdoutLine: {'line': b'-- Symlinking: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/local/lib/python3.10/dist-packages/mp/msg/_control_instructions_s.c\n'}
+[8.458153] (mp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/local/lib/python3.10/dist-packages/mp/mp_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.458516] (mp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/local/lib/python3.10/dist-packages/mp/mp_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.458684] (mp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/local/lib/python3.10/dist-packages/mp/mp_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.458762] (mp) StdoutLine: {'line': b'-- Symlinking: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/share/mp/msg/ControlInstructions.idl\n'}
+[8.466340] (mp) StdoutLine: {'line': b'-- Symlinking: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/share/mp/msg/ControlInstructions.msg\n'}
+[8.473829] (mp) StdoutLine: {'line': b'-- Symlinking: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/lib/mp/coordinates_receiver\n'}
+[8.480353] (mp) StdoutLine: {'line': b'-- Symlinking: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/share/mp/msg/msg/ControlInstructions.msg\n'}
+[8.486438] (mp) StdoutLine: {'line': b'-- Symlinking: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/share/ament_index/resource_index/package_run_dependencies/mp\n'}
+[8.493522] (mp) StdoutLine: {'line': b'-- Symlinking: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/share/ament_index/resource_index/parent_prefix_path/mp\n'}
+[8.500521] (mp) StdoutLine: {'line': b'-- Symlinking: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/share/mp/environment/ament_prefix_path.sh\n'}
+[8.507385] (mp) StdoutLine: {'line': b'-- Symlinking: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/share/mp/environment/ament_prefix_path.dsv\n'}
+[8.514368] (mp) StdoutLine: {'line': b'-- Symlinking: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/share/mp/environment/path.sh\n'}
+[8.520071] (-) TimerEvent: {}
+[8.521355] (mp) StdoutLine: {'line': b'-- Symlinking: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/share/mp/environment/path.dsv\n'}
+[8.529379] (mp) StdoutLine: {'line': b'-- Symlinking: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/share/mp/local_setup.bash\n'}
+[8.536552] (mp) StdoutLine: {'line': b'-- Symlinking: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/share/mp/local_setup.sh\n'}
+[8.544547] (mp) StdoutLine: {'line': b'-- Symlinking: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/share/mp/local_setup.zsh\n'}
+[8.551437] (mp) StdoutLine: {'line': b'-- Symlinking: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/share/mp/local_setup.dsv\n'}
+[8.558560] (mp) StdoutLine: {'line': b'-- Symlinking: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/share/mp/package.dsv\n'}
+[8.566438] (mp) StdoutLine: {'line': b'-- Symlinking: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/share/ament_index/resource_index/packages/mp\n'}
+[8.571678] (mp) StdoutLine: {'line': b'-- Symlinking: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/share/mp/cmake/rosidl_cmake-extras.cmake\n'}
+[8.577576] (mp) StdoutLine: {'line': b'-- Symlinking: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/share/mp/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[8.584544] (mp) StdoutLine: {'line': b'-- Symlinking: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/share/mp/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[8.591605] (mp) StdoutLine: {'line': b'-- Symlinking: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/share/mp/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[8.598505] (mp) StdoutLine: {'line': b'-- Symlinking: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/share/mp/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[8.605851] (mp) StdoutLine: {'line': b'-- Symlinking: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/share/mp/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[8.612059] (mp) StdoutLine: {'line': b'-- Symlinking: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/share/mp/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[8.619619] (mp) StdoutLine: {'line': b'-- Symlinking: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/share/mp/cmake/mpConfig.cmake\n'}
+[8.620131] (-) TimerEvent: {}
+[8.626638] (mp) StdoutLine: {'line': b'-- Symlinking: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/share/mp/cmake/mpConfig-version.cmake\n'}
+[8.633740] (mp) StdoutLine: {'line': b'-- Symlinking: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/share/mp/package.xml\n'}
+[8.640946] (mp) StdoutLine: {'line': b'-- Installing: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/lib/libmp__rosidl_generator_c.so\n'}
+[8.641161] (mp) StdoutLine: {'line': b'-- Set runtime path of "/home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/lib/libmp__rosidl_generator_c.so" to ""\n'}
+[8.641214] (mp) StdoutLine: {'line': b'-- Installing: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/lib/libmp__rosidl_typesupport_fastrtps_c.so\n'}
+[8.641380] (mp) StdoutLine: {'line': b'-- Set runtime path of "/home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/lib/libmp__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[8.641421] (mp) StdoutLine: {'line': b'-- Installing: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/lib/libmp__rosidl_typesupport_fastrtps_cpp.so\n'}
+[8.641579] (mp) StdoutLine: {'line': b'-- Set runtime path of "/home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/lib/libmp__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[8.641649] (mp) StdoutLine: {'line': b'-- Installing: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/lib/libmp__rosidl_typesupport_introspection_c.so\n'}
+[8.641878] (mp) StdoutLine: {'line': b'-- Set runtime path of "/home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/lib/libmp__rosidl_typesupport_introspection_c.so" to ""\n'}
+[8.641934] (mp) StdoutLine: {'line': b'-- Installing: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/lib/libmp__rosidl_typesupport_c.so\n'}
+[8.642094] (mp) StdoutLine: {'line': b'-- Set runtime path of "/home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/lib/libmp__rosidl_typesupport_c.so" to ""\n'}
+[8.642151] (mp) StdoutLine: {'line': b'-- Installing: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/lib/libmp__rosidl_typesupport_introspection_cpp.so\n'}
+[8.642307] (mp) StdoutLine: {'line': b'-- Set runtime path of "/home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/lib/libmp__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[8.642363] (mp) StdoutLine: {'line': b'-- Installing: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/lib/libmp__rosidl_typesupport_cpp.so\n'}
+[8.642512] (mp) StdoutLine: {'line': b'-- Set runtime path of "/home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/lib/libmp__rosidl_typesupport_cpp.so" to ""\n'}
+[8.669569] (mp) StdoutLine: {'line': b"Listing '/home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/local/lib/python3.10/dist-packages/mp'...\n"}
+[8.669661] (mp) StdoutLine: {'line': b"Compiling '/home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/local/lib/python3.10/dist-packages/mp/__init__.py'...\n"}
+[8.669693] (mp) StdoutLine: {'line': b"Listing '/home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/local/lib/python3.10/dist-packages/mp/msg'...\n"}
+[8.669722] (mp) StdoutLine: {'line': b"Compiling '/home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/local/lib/python3.10/dist-packages/mp/msg/__init__.py'...\n"}
+[8.669753] (mp) StdoutLine: {'line': b"Compiling '/home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/local/lib/python3.10/dist-packages/mp/msg/_control_instructions.py'...\n"}
+[8.672839] (mp) StdoutLine: {'line': b'-- Installing: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/lib/libmp__rosidl_generator_py.so\n'}
+[8.672979] (mp) StdoutLine: {'line': b'-- Set runtime path of "/home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/lib/libmp__rosidl_generator_py.so" to ""\n'}
+[8.673028] (mp) StdoutLine: {'line': b'-- Installing: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/share/mp/cmake/export_mp__rosidl_generator_cExport.cmake\n'}
+[8.673122] (mp) StdoutLine: {'line': b'-- Installing: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/share/mp/cmake/export_mp__rosidl_generator_cExport-noconfig.cmake\n'}
+[8.673173] (mp) StdoutLine: {'line': b'-- Installing: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/share/mp/cmake/export_mp__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[8.673268] (mp) StdoutLine: {'line': b'-- Installing: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/share/mp/cmake/export_mp__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[8.673306] (mp) StdoutLine: {'line': b'-- Installing: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/share/mp/cmake/export_mp__rosidl_generator_cppExport.cmake\n'}
+[8.673388] (mp) StdoutLine: {'line': b'-- Installing: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/share/mp/cmake/export_mp__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[8.673419] (mp) StdoutLine: {'line': b'-- Installing: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/share/mp/cmake/export_mp__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[8.673513] (mp) StdoutLine: {'line': b'-- Installing: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/share/mp/cmake/mp__rosidl_typesupport_introspection_cExport.cmake\n'}
+[8.673548] (mp) StdoutLine: {'line': b'-- Installing: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/share/mp/cmake/mp__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[8.673634] (mp) StdoutLine: {'line': b'-- Installing: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/share/mp/cmake/mp__rosidl_typesupport_cExport.cmake\n'}
+[8.673665] (mp) StdoutLine: {'line': b'-- Installing: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/share/mp/cmake/mp__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[8.673760] (mp) StdoutLine: {'line': b'-- Installing: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/share/mp/cmake/mp__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[8.673792] (mp) StdoutLine: {'line': b'-- Installing: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/share/mp/cmake/mp__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[8.673875] (mp) StdoutLine: {'line': b'-- Installing: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/share/mp/cmake/mp__rosidl_typesupport_cppExport.cmake\n'}
+[8.673908] (mp) StdoutLine: {'line': b'-- Installing: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/share/mp/cmake/mp__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[8.673954] (mp) StdoutLine: {'line': b'-- Installing: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/share/mp/cmake/export_mp__rosidl_generator_pyExport.cmake\n'}
+[8.674000] (mp) StdoutLine: {'line': b'-- Installing: /home/shivam/code-masala/SeDriCa-BatMobile-v2/install/mp/share/mp/cmake/export_mp__rosidl_generator_pyExport-noconfig.cmake\n'}
+[8.675770] (mp) CommandEnded: {'returncode': 0}
+[8.689206] (mp) JobEnded: {'identifier': 'mp', 'rc': 0}
+[8.689698] (-) EventReactorShutdown: {}
