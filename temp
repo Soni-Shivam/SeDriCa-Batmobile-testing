@@ -5,6 +5,8 @@
 #include "mp/msg/control_instructions.hpp"
 #include "geometry_msgs/msg/twist.hpp"
 #include "std_msgs/msg/bool.hpp"
+#include "std_msgs/msg/float32.hpp"
+
 
 #include <vector>
 #include <cmath>
@@ -34,31 +36,38 @@ def
 class ControlsPublisher : public rclcpp::Node {
 public:
     ControlsPublisher() : Node("control_publisher") {
-       // control_publisher = this->create_publisher<mp::msg::ControlInstructions>(
-        //    "Control_instruction", 10);
-        
-      motion_publisher = this->create_publisher<geometry_msgs::msg::Twist>("cmd_vel",10);
-      shoot_publisher=this->
+        motion_publisher = this->create_publisher<geometry_msgs::msg::Twist>("/cmd_vel", 10);
+        shoot_publisher = this->create_publisher<std_msgs::msg::Bool>("/shoot", 10);
+        orient_publisher = this->create_publisher<std_msgs::msg::Float32>("/orient", 10); // cannon angle
     }
 
-    static int setControl(float linear_speed, float angular_speed, float cannon_angle, bool shoot) {
-        auto control_msg = mp::msg::ControlInstructions();
-        control_msg.linear_speed = linear_speed;
-        control_msg.angular_speed = angular_speed;
-        control_msg.cannon_angle = cannon_angle;
-        control_msg.shoot_cannon = shoot;
-        
-        RCLCPP_INFO(rclcpp::get_logger("control_publisher"), 
+    int setControl(float linear_speed, float angular_speed, float cannon_angle, bool shoot) {
+        auto twist_msg = geometry_msgs::msg::Twist();
+        auto shoot_msg = std_msgs::msg::Bool();
+        auto orient_msg = std_msgs::msg::Float32();
+
+        twist_msg.linear.x = linear_speed;
+        twist_msg.angular.z = angular_speed;
+        orient_msg.data = cannon_angle;
+        shoot_msg.data = shoot;
+
+        RCLCPP_INFO(this->get_logger(), 
             "Publishing: linear=%.2f angular=%.2f cannon_angle=%.2f shoot=%d",
             linear_speed, angular_speed, cannon_angle, shoot);
-            
-        control_publisher->publish(control_msg);
+
+        motion_publisher->publish(twist_msg);
+        shoot_publisher->publish(shoot_msg);
+        orient_publisher->publish(orient_msg);
+
         return 0;
     }
 
 private:
-    static rclcpp::Publisher<mp::msg::ControlInstructions>::SharedPtr control_publisher;
+    rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr motion_publisher;
+    rclcpp::Publisher<std_msgs::msg::Bool>::SharedPtr shoot_publisher;
+    rclcpp::Publisher<std_msgs::msg::Float32>::SharedPtr orient_publisher;
 };
+
 
 // Initialize static member
 rclcpp::Publisher<mp::msg::ControlInstructions>::SharedPtr ControlsPublisher::control_publisher;
